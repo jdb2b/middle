@@ -1,8 +1,0 @@
-section.homepage-services.services
-  .container
-    h2
-      | Services
-    .services-items
-      //get the first two most recent posts
-      - services.articles.each do | article |
-        = partial 'partials/services/services_item', locals: {article: article}
