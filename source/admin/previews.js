@@ -21,6 +21,29 @@ const BlogPreview = ({ entry, widgetFor }) => {
   )
 }
 
+const ServicesPreview = ({ entry, widgetFor }) => {
+  const data = entry.get('data').toJS()
+  const date = dayjs(data.date).format('DD-MM-YY')
+  return (
+    <div className="services-detail">
+      <div className="container">
+        <div className="row">
+          <div className="title">
+            <span className="date">{date}</span>
+            <h1>{data.title}</h1>
+          </div>
+        </div>
+        <div className="row">
+          <div className="image">
+            <img src={data.image}/>
+          </div>
+        </div>
+        <div className="row content">{widgetFor('body')}</div>
+      </div>
+    </div>
+  )
+}
+
 const TestimonialPreview = ({ entry, widgetFor }) => {
   const data = entry.get('data').toJS()
   return (
@@ -90,6 +113,7 @@ const NavigationPreview = ({ entry }) => {
 }
 
 CMS.registerPreviewTemplate('blog', BlogPreview)
+CMS.registerPreviewTemplate('services', ServicesPreview)
 CMS.registerPreviewTemplate('testimonial', TestimonialPreview)
 CMS.registerPreviewTemplate('home', HomePreview)
 CMS.registerPreviewTemplate('navigation', NavigationPreview)

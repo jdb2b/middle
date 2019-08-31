@@ -25,6 +25,15 @@ section.homepage-testimonials.testimonials
         //to get the actual data:
         = partial 'partials/testimonials/testimonial', locals: {testimonial: testimonial[1]}
 
+section.homepage-services.services
+  .container
+    h2
+      | Services
+    .services-items
+      //get the first two most recent posts
+      - services.articles.first(2).each do | article |
+        = partial 'partials/services/services_item', locals: {article: article}
+
 section.homepage-news.news
   .container
     h2
