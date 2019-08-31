@@ -1,5 +1,5 @@
 ---
-title: The Revenue Acceleration Framework
+title: Revenue Acceleration Framework
 date: 2018-08-16T12:01+02:00
 description: >-
   Operations
