@@ -10,10 +10,18 @@ image: /images/uploads/analysis.png
 
 Find your sweet spot and narrow your focus.
 
+## Recordings
+
+Assess your gaps and define the process.
+
+## Analytics
+
+Know your best customer journeys.
+
 ## Enablement
 
 Shorten your sales cycle with technology.
 
 ## Insights
 
-Configure your stack to better compete.
+Configure your stack to make smart decisions.
