@@ -30,24 +30,6 @@ activate :blog do |blog|
   blog.sources = "posts/{title}.html"
   blog.layout = "news-detail"
 
-end  
-
-activate :livereload
-# Layouts
-# https://middlemanapp.com/basics/layouts/
-
-# Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
-page "/partials/*", layout: false
-page "/admin/*", layout: false
-
-activate :services do |services|
-  services.permalink = "services/{year}/{title}.html"
-  services.sources = "posts/{title}.html"
-  services.layout = "services-detail"
-
 end
 
 # With alternative layout
