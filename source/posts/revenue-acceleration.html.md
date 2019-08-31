@@ -25,3 +25,7 @@ Shorten your sales cycle with technology.
 ## Insights
 
 Configure your stack to make smart decisions.
+
+## Success Plan
+
+Sell the plan during the sales process.
