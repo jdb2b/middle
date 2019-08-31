@@ -1,0 +1,16 @@
+.testimonial-detail
+  .image style=background_image(image_path(testimonial.image))
+  .content
+    .meta
+      h1 = testimonial.title
+
+      .weight
+        - weight = data.settings.units.weight || 'kg'
+        span = testimonial.weight.to_s
+
+      .price
+        - currency = data.settings.units.currency || '€' 
+        span = testimonial.price.to_s 
+
+    .body
+      = markdown testimonial.body

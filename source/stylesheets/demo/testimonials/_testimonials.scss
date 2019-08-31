@@ -7,10 +7,10 @@
     margin: 0 0 30px;
   }
 
-  .product {
+  .testimonial {
     @extend %column;
     @extend %col-sm-4;
-    @extend %product;
+    @extend %testimonial;
   }
 
   @media screen and (max-width: $screen-xs-max) {

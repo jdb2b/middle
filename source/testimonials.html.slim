@@ -1,0 +1,12 @@
+section.testimonials
+  .container
+    h2
+      | Testimonials
+    .row
+      //testimonial is structured: ['filename', 'data']
+      //sort by newest testimonial
+      - data.testimonials.sort {|a,b| b[1].date <=> a[1].date}.each do | testimonial |
+
+        //to get the actual data:
+        = partial 'partials/testimonials/testimonial', locals: {testimonial: testimonial[1]}
+
