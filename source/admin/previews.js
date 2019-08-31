@@ -21,10 +21,10 @@ const BlogPreview = ({ entry, widgetFor }) => {
   )
 }
 
-const ProductPreview = ({ entry, widgetFor }) => {
+const TestimonialPreview = ({ entry, widgetFor }) => {
   const data = entry.get('data').toJS()
   return (
-    <div className="product-detail">
+    <div className="testimonial-detail">
       <div className="image" style={{ backgroundImage: `url('${data.image}')` }}></div>
       <div className="content">
         <div className="meta">
@@ -90,6 +90,6 @@ const NavigationPreview = ({ entry }) => {
 }
 
 CMS.registerPreviewTemplate('blog', BlogPreview)
-CMS.registerPreviewTemplate('product', ProductPreview)
+CMS.registerPreviewTemplate('testimonial', TestimonialPreview)
 CMS.registerPreviewTemplate('home', HomePreview)
 CMS.registerPreviewTemplate('navigation', NavigationPreview)

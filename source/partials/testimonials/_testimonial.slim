@@ -1,16 +1,16 @@
-//link to product by converting the title to a slug
-.product
-  = link_to '/product/' + product.title.parameterize + '/'
-    .product-image
-      = image_tag product.image
-    .product-content
+//link to testimonial by converting the title to a slug
+.testimonial
+  = link_to '/testimonial/' + testimonial.title.parameterize + '/'
+    .testimonial-image
+      = image_tag testimonial.image
+    .testimonial-content
       .title
-        h3 = product.title
+        h3 = testimonial.title
       .price
         p 
           - currency = data.settings.units.currency || '€' 
-          = product.price.to_s 
+          = testimonial.price.to_s 
       .weight
         p 
           - weight = data.settings.units.weight || 'kg'
-          = product.weight.to_s
+          = testimonial.weight.to_s
