@@ -14,7 +14,7 @@ Find your sweet spot and narrow your focus.
 
 Assess your gaps and define the process.
 
-## Analytics
+## Analysis
 
 Know your best customer journeys.
 
@@ -22,7 +22,7 @@ Know your best customer journeys.
 
 Shorten your sales cycle with technology.
 
-## Insights
+## Intelligence
 
 Configure your stack to make smart decisions.
 
