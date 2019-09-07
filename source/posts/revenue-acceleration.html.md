@@ -2,7 +2,7 @@
 title: The Revenue Acceleration Framework
 date: 2018-08-16T12:01+02:00
 description: >-
-  Technology, Process, & Hiring Decisions
+  Technology, Process, & Hiring Execution
 image: /images/uploads/analysis.png
 ---
 
