@@ -2,7 +2,7 @@
 title: The Buyer's Journey Framework
 date: 2018-08-18T09:01+02:00
 description: >-
-  1:1 Coaching for Sales & Customer Success
+  Sales & Customer Success Coaching
 image: /images/uploads/journey.png
 ---
 
